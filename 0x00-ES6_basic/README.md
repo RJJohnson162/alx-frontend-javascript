@@ -1,87 +1,147 @@
-# JavaScript ES6 Basics
+# alx-frontend-javascript | 0x00. ES6 Basics
 
-This repository contains a collection of JavaScript code snippets and tasks that cover various topics and concepts in JavaScript development. Each code snippet or task is provided with a brief description and execution instructions.
+## Description:bulb:
 
-## Table of Contents
+Javascript ES6
 
--   [Installation](#installation)
--   [Usage](#usage)
--   [Tasks](#tasks)
-    -   [Task 1: Constants and Variables](#task-1-constants-and-variables)
-    -   [Task 2: Block-Scoped Variables](#task-2-block-scoped-variables)
-    -   [Task 3: Default Parameter Values](#task-3-default-parameter-values)
-    -   [Task 4: Rest Parameter Syntax](#task-4-rest-parameter-syntax)
-    -   [Task 5: Spread Operator](#task-5-spread-operator)
-    -   [Task 6: String Interpolation](#task-6-string-interpolation)
-    -   [Task 7: Computed Property Names](#task-7-computed-property-names)
-    -   [Task 8: Method Properties](#task-8-method-properties)
-    -   [Task 9: Loop Optimization](#task-9-loop-optimization)
-    -   [Task 10: Object Creation](#task-10-object-creation)
-    -   [Task 11: Employee Object](#task-11-employee-object)
-    -   [Task 12: Report Object](#task-12-report-object)
-    -   [Task 100: Iterator Object](#task-100-iterator-object)
-    -   [Task 101: Iterate Through Object](#task-101-iterate-through-object)
--   [License](#license)
+- What ES6 is
+- New features introduced in ES6
+- The difference between a constant and a variable
+- Block-scoped variables
+- Arrow functions and function parameters default to them
+- Rest and spread function parameters
+- String templating in ES6
+- Object creation and their properties in ES6
+- Iterators and for-of loops
 
-## Installation
+## Technologies & Tools:computer:
 
-Clone this repository to your local machine using the following command:
+[![Jest](https://img.shields.io/badge/≡-Jest-C21325?logo=Jest&style=flat-square&labelColor=282828&logoColor=C21325)](https://jestjs.io/)
+[![Git](https://img.shields.io/badge/≡-Git-F05032?logo=git&style=flat-square&labelColor=282828)](https://git-scm.com/)
+[![Ubuntu](https://img.shields.io/badge/≡-Ubuntu-E95420?&style=flat-square&logo=Ubuntu&labelColor=282828)](https://ubuntu.com/)
+[![Babel](https://img.shields.io/badge/≡-Babel-F9DC3E?logo=Babel&style=flat-square&labelColor=282828)](https://babeljs.io/)
+[![JavaScript](https://img.shields.io/badge/≡-JavaScript-F7DF1E?logo=javascript&style=flat-square&labelColor=282828)](https://developer.mozilla.org/en-US/docs/Web/javascript)
+[![GNU_Bash](https://img.shields.io/badge/≡-GNU_Bash-4EAA25?logo=GNU-Bash&style=flat-square&labelColor=282828)](https://www.gnu.org/software/bash/)
+[![Node.js](https://img.shields.io/badge/≡-Nodejs-339933?logo=Node.js&style=flat-square&labelColor=282828)](https://nodejs.org/en/)
+[![Vim](https://img.shields.io/badge/≡-Vim-019733?logo=Vim&style=flat-square&logoColor=019733&labelColor=282828)](https://www.vim.org/)
+[![Vagrant](https://img.shields.io/badge/≡-Vagrant-1563FF?logo=vagrant&style=flat-square&logoColor=1563FF&labelColor=282828)](https://www.vagrantup.com/)
+[![VS_Code](https://img.shields.io/badge/≡-VS_Code-007ACC?logo=visual-studio-code&style=flat-square&logoColor=007ACC&labelColor=282828)](https://code.visualstudio.com/)
+[![ESLint](https://img.shields.io/badge/≡-ESLint-4B32C3?logo=ESLint&style=flat-square&labelColor=282828&logoColor=4B32C3)](https://eslint.org/)
+[![GitHub](https://img.shields.io/badge/≡-GitHub-181717?logo=GitHub&style=flat-square&labelColor=282828)](https://github.com/)
 
-```bash
-git clone https://github.com/RJJohnson162/javascript-code-snippets.git
+---
 
-## USAGE
+## Resources:books:
 
-Each task or code snippet is provided in its own JavaScript file. You can run the files using Node.js. For example:
+Read or watch:
 
-node 0-constants.js
+- [ECMAScript 6 - ECMAScript 2015](https://www.w3schools.com/js/js_es6.asp)
+- [Statements and declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+- [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+- [Rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+- [Javascript ES6 — Iterables and Iterators](https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4)
 
-## Tasks
-### Task 1: Constants and Variables
-Task 1: Constants and Variables
-A task to demonstrate the use of const and let for variable declaration.
+---
 
-##3 Task 2: Block-Scoped Variables
-A task to demonstrate block-scoped variables using let.
+## Requirements:hammer:
 
-### Task 3: Default Parameter Values
-A task showcasing the use of default parameter values in functions.
+- Ubuntu 18.04 LTS using NodeJS 12.22.x
+- Jest Testing Framework
+- ESLint
 
-### Task 4: Rest Parameter Syntax
-A task demonstrating the use of the rest parameter syntax.
+### Install NodeJS 12.22.x
 
-### Task 5: Spread Operator
-A task illustrating the use of the spread operator for concatenating arrays and strings.
-
-### Task 6: String Interpolation
-A task showing how to use template literals for string interpolation.
-
-### Task 7: Computed Property Names
-A task demonstrating computed property names in objects.
-
-### Task 8: Method Properties
-A task converting object methods to ES6 method properties.
-
-### Task 9: Loop Optimization
-A task optimizing a loop using ES6 syntax and avoiding the use of var.
-
-### Task 10: Object Creation
-A task for creating objects with specific key-value pairs.
-
-### Task 11: Employee Object
-A task to create an object representing employees in a department.
-
-### Task 12: Report Object
-A task to create a report object containing department information and a method to get the number of departments.
-
-### Task 100: Iterator Object
-A task to create an iterator object for employee names in departments.
-
-### Task 101: Iterate Through Object
-A task to iterate through the employee object and concatenate employee names.
-
-### License
-This repository is licensed under the MIT License.
-
-This README provides an organized overview of the JavaScript code snippets and tasks included in the repository, along with installation and usage instructions. You can further customize it as needed for your project.
+```console
+foo@pop-os:~$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+foo@pop-os:~$ sudo bash nodesource_setup.sh
+foo@pop-os:~$ sudo apt install nodejs -y
 ```
+
+### Check version
+
+```console
+foo@pop-os:~$ nodejs -v
+v12.22.1
+foo@pop-os:~$ npm -v
+6.14.12
+```
+
+### Install Jest, Babel, and ESLint
+
+```console
+foo@pop-os:~$ npm install --save-dev jest
+foo@pop-os:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
+foo@pop-os:~$ npm install --save-dev eslint
+```
+
+<details>
+<summary>.eslintrc.js</summary>
+```javascript
+module.exports = {
+  env: {
+    browser: false,
+    es6: true,
+    jest: true,
+  },
+  extends: [
+    'airbnb-base',
+    'plugin:jest/all',
+  ],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+  },
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+  },
+  plugins: ['jest'],
+  rules: {
+    'no-console': 'off',
+    'no-shadow': 'off',
+    'no-restricted-syntax': [
+      'error',
+      'LabeledStatement',
+      'WithStatement',
+    ],
+  },
+  overrides:[
+    {
+      files: ['*.js'],
+      excludedFiles: 'babel.config.js',
+    }
+  ]
+};
+```
+</details>
+
+---
+
+## Files:card_file_box:
+
+### [0. Const or let?](./0-constants.js)
+
+### [1. Block Scope](./1-block-scoped.js)
+
+### [2. Arrow functions](./2-arrow.js)
+
+### [3. Parameter defaults](./3-default-parameter.js)
+
+### [4. Rest parameter syntax for functions](./4-rest-parameter.js)
+
+### [5. The wonders of spread syntax](./5-spread-operator.js)
+
+### [6. Take advantage of template literals](./6-string-interpolation.js)
+
+### [7. Object property value shorthand syntax](./7-getBudgetObject.js)
+
+### [8. No need to create empty objects before adding in properties](./8-getBudgetCurrentYear.js)
+
+### [9. ES6 method properties](./9-getFullBudget.js)
+
+### [10. For...of Loops](./10-loops.js)
+
+### [11. Iterator](./11-createEmployeesObject.js)
+
+### [12. Let's create a report object](./12-createReportObject.js)

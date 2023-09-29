@@ -1,5 +1,3 @@
-import appendToEachArrayValue from "./10-loops";
+import appendToEachArrayValue from './10-loops';
 
-console.log(
-    appendToEachArrayValue(["append", "fixed", "displayed"], "correctly-")
-);
+console.log(appendToEachArrayValue(['append', 'fixed', 'displayed'], 'correctly-'));
